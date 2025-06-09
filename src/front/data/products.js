@@ -23,6 +23,6 @@ export const get_product = async (id) => {
     return data;
   } catch (error) {
     console.error("Error fetching product:", error);
-    throw error; // Re-throw the error for further handling
+    throw error; 
   }
 }
