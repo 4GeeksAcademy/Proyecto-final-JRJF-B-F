@@ -28,7 +28,7 @@ export const ResetPassword = () => {
     }
 
     return (
-        <div>
+        <div className="container mt-5 text-center">
             <h2>Ingrese su nueva contraseña</h2>
             <form onSubmit={handleReset}>
                 <input type="password"

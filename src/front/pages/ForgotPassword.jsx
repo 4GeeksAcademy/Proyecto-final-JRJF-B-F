@@ -24,8 +24,8 @@ export const ForgotPassword = () => {
     }
 
     return (
-        <div>
-            <h2></h2>
+        <div className="container mt-5 text-center">
+            <h2>Recuperar contraseña</h2>
             <form onSubmit={handledSubmit}>
                 <input type="email"
                     className="form-control mb-3"
